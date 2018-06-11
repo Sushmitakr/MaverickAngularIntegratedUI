@@ -1,0 +1,24 @@
+<mat-card class="example-card" *ngIf="result">
+  <mat-card-header>
+    <div mat-card-avatar class="example-header-image"></div>
+    <mat-card-title>Game Name: {{result.gameName}}</mat-card-title>
+    <mat-card-subtitle>
+      <b>Game Type:</b> {{result.gameType.gameTypeName}}</mat-card-subtitle>
+  </mat-card-header>
+  <mat-card-content>
+    <img style="max-width: 300px;" [src]='sanitizer.bypassSecurityTrustResourceUrl(result.gameImage)' frameborder="0" mozallowfullscreen
+      allowfullscreen>
+    <p>
+      <b>Game Description:</b> {{result.gameDescription}}</p>
+    <p>
+      <b>Rules:</b> {{result.gameRules}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+    <button class="play" mat-icon-button>
+      <mat-icon color="primary" (click)="routeToQuiz(result.gameRules,result.gameType,result.gameType.gameTypeId,result.topicId)" aria-label="Example icon-button with a heart icon">play_circle_outline</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>
+<br>
+<br>
+<br>

@@ -1,0 +1,195 @@
+// .example-card2{
+//     max-width: 200px;
+//   }
+
+//   a{
+//     text-decoration: none;
+//   }
+
+//   mat-card-title{
+//     color: brown;
+//     font-size: 25px !important;
+//     padding-left: 5px;
+//   }
+
+//   .margin{
+//     margin-bottom: -105px;
+//     margin-left: 65px;
+//     color: rebeccapurple;
+//   }
+
+// :host {
+//   display: block;
+//   margin-top: 1rem;
+// }
+// .grid {
+//   margin: 0 auto;
+// }
+// .card-title {
+//   margin-top: 15px;
+// }
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
+// .card {
+//   text-decoration-color: white;
+//   display: inline-block;
+//   margin-bottom: 1rem;
+//   width: 18rem;
+//   border-radius: 5px;
+//   margin: 11px;
+//   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+// }
+// .tile {
+//   min-height: 200px;
+//   background-color: #ccc;
+//   background-size: cover !important;
+// }
+// img {
+//   width: 50%;
+//   height: 50%;
+//   border-radius: 50%;
+// }
+// .card-body {
+//   border-radius: 2px;
+// }
+// h5 {
+//   float: left;
+// }
+// .ff {
+//   float: right;
+// }
+// .f {
+//   float: left;
+// }
+// mat-fab {
+//   padding-bottom: 20px;
+// }
+// .block1 {
+//   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
+//   opacity: 0.5;
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+// }
+// .block2 {
+//   color: black;
+//   background-color: lightgrey;
+// }
+// .block3 {
+//   padding: 5px 70px;
+// }
+
+// :host {
+//   display: block;
+//   margin-top: 1rem;
+// }
+// .grid {
+//   margin: 0 auto;
+// }
+// .card-title {
+//   margin-top: 15px;
+// }
+// .container {
+//   max-width: 1200px;
+//   margin: 0 auto;
+// }
+// .card {
+//   text-decoration-color: white;
+//   display: inline-block;
+//   margin-bottom: 1rem;
+//   width: 18rem;
+//   border-radius: 5px;
+//   margin: 11px;
+//   box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.5);
+// }
+// .tile {
+//   min-height: 200px;
+//   background-color: #ccc;
+//   background-size: cover !important;
+// }
+// img {
+//   // width: 50%;
+//   // height: 50%;
+//   // border-radius: 50%;
+// }
+// .card-body {
+//   border-radius: 2px;
+// }
+// h5 {
+//   float: left;
+// }
+// .ff {
+//   float: right;
+// }
+// .f {
+//   float: left;
+// }
+// mat-fab {
+//   padding-bottom: 20px;
+// }
+// .block1 {
+//   box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.5);
+//   opacity: 0.5;
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+// }
+// .block2 {
+//   color: black;
+//   background-color: lightgrey;
+// }
+// .block3 {
+//   padding: 5px 70px;
+// }
+
+.background {
+  z-index: -1;
+}
+.gridCentered .static {
+  position: absolute;
+  visibility: hidden;
+}
+.gridCentered {
+  margin-left: auto;
+  margin-right: auto;
+}
+.example-card {
+  max-width: 198px;
+  max-height: 236px;
+}
+mat-card-title {
+  letter-spacing: 2px;
+}
+.center {
+  margin: 0 auto;
+}
+.mat-card-title {
+  font-weight: bolder;
+}
+.right {
+  align-content: right;
+}
+.aa {
+  margin-top: 20px !important;
+}
+mat-card {
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22) !important;
+}
+.container {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+mat-card {
+  margin-bottom: 10px;
+}
+.header {
+  font-weight: bolder;
+  align-content: center;
+}
+.mat-card-image {
+  height: 120px;
+}
